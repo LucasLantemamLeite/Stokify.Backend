@@ -1,3 +1,3 @@
 namespace Stokify.Domain.Abstracts.Markers.Aggregates;
 
-public interface IAggregatesRoot { }
+public interface IAggregateRoot { }
