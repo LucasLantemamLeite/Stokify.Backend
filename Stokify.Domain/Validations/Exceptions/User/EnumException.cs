@@ -1,4 +1,4 @@
-namespace Stokify.Domain.Validations.Exceptions.User;
+namespace Stokify.Domain.Validations.Exceptions.Common;
 
 public sealed class EnumException(string message) : Exception(message)
 {
