@@ -1,11 +1,10 @@
 namespace Stokify.Domain.Enums;
 
-public enum ERole
+public enum EOrgRole
 {
-    User = 1,
+    Member = 1,
     Manager = 2,
     Director = 3,
     Admin = 4,
     Owner = 5,
-    SuperAdmin = 6,
 }
