@@ -6,6 +6,7 @@ public sealed class Density : IValueObject
 
     public Density(decimal density)
     {
+        IsNumberException.ThrowIfNotIsNumber(density.ToString(), "decimal", "Produto: densidade deve conter apenas números e virgula.");
         Value = density;
     }
 

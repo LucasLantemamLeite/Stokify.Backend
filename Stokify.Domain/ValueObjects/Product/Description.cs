@@ -5,7 +5,10 @@ public sealed class Description : IValueObject
     public string? Value { get; } = null;
 
     public Description(string? description)
-        => Value = description;
+    {
+        MaxLenghtException.ThrowIfGreaterThan(description, 100, "Produto: descrição deve ser menor que 100 caracteres.");
+        Value = description;
+    }
 
     private Description() { }
 }

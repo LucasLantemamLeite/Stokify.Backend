@@ -6,6 +6,7 @@ public sealed class Code : IValueObject
 
     public Code(int code)
     {
+        IsNumberException.ThrowIfNotIsNumber(code.ToString(), "int", "Produto: código deve conter apenas números.");
         Value = code;
     }
 
