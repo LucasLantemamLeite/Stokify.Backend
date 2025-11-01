@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stokify.Domain", "Stokify.Domain\Stokify.Domain.csproj", "{FF68BD0F-A37C-4969-9C35-19F50C57A5E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stokify.Test", "Stokify.Test\Stokify.Test.csproj", "{51A7767E-A6A0-40DA-8E72-A1C0F17DEEAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FF68BD0F-A37C-4969-9C35-19F50C57A5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF68BD0F-A37C-4969-9C35-19F50C57A5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF68BD0F-A37C-4969-9C35-19F50C57A5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A7767E-A6A0-40DA-8E72-A1C0F17DEEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A7767E-A6A0-40DA-8E72-A1C0F17DEEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A7767E-A6A0-40DA-8E72-A1C0F17DEEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A7767E-A6A0-40DA-8E72-A1C0F17DEEAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
