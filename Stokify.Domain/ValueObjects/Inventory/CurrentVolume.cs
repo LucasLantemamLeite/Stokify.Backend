@@ -1,4 +1,4 @@
-namespace Stokify.Domain.ValueObjects.WareHouse;
+namespace Stokify.Domain.ValueObjects.Inventory;
 
 public sealed class CurrentVolume : IValueObject
 {
