@@ -3,6 +3,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Stokify.Domain\Stokify.Domain.csproj" />
     <ProjectReference Include="..\Stokify.Application\Stokify.Application.csproj" />
+    <ProjectReference Include="..\Stokify.Infrastructure\Stokify.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.1" />
   </ItemGroup>
 
   <PropertyGroup>
