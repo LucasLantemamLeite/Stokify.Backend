@@ -15,4 +15,6 @@ public sealed class Access : Notifiable<Notification>, IValueObject
         if (IsValid)
             Value = (EAccess)access;
     }
+
+    private Access() { }
 }

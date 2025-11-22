@@ -13,4 +13,6 @@ public sealed class Email : Notifiable<Notification>, IValueObject
         if (IsValid)
             Value = email;
     }
+
+    private Email() { }
 }

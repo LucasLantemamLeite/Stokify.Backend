@@ -50,4 +50,6 @@ public sealed class User : Entity, IAggregateRoot, IValidatable
         UpdatedAt = new(updated);
         Active = new(active);
     }
+
+    private User() { }
 }

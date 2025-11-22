@@ -13,4 +13,6 @@ public sealed class Password : Notifiable<Notification>, IValueObject
         if (IsValid)
             Value = password;
     }
+
+    private Password() { }
 }
