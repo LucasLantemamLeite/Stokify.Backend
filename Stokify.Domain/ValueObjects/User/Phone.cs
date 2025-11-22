@@ -4,7 +4,7 @@ namespace Stokify.Domain.ValueObjects.User;
 
 public sealed partial class Phone : Notifiable<Notification>, IValueObject
 {
-    public required string Value { get; init; }
+    public string Value { get; } = null!;
 
     [GeneratedRegex(@"^\\+[1-9]{1}[0-9]{1,14}$")]
     private partial Regex PhoneRegex();

@@ -4,7 +4,7 @@ namespace Stokify.Domain.ValueObjects.User;
 
 public sealed class Access : Notifiable<Notification>, IValueObject
 {
-    public required EAccess Value { get; init; }
+    public EAccess Value { get; } = EAccess.Member;
 
     public Access(sbyte access)
     {

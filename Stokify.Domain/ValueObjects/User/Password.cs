@@ -2,7 +2,7 @@ namespace Stokify.Domain.ValueObjects.User;
 
 public sealed class Password : Notifiable<Notification>, IValueObject
 {
-    public required string Value { get; init; }
+    public string Value { get; } = null!;
 
     public Password(string password)
     {

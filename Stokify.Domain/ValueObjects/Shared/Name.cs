@@ -2,7 +2,7 @@ namespace Stokify.Domain.ValueObjects.Shared;
 
 public sealed class Name : Notifiable<Notification>, IValueObject
 {
-    public required string Value { get; init; }
+    public string Value { get; } = null!;
 
     public Name(string name, string entityName)
     {
