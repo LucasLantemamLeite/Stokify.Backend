@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Stokify.Domain\Stokify.Domain.csproj" />
+    <ProjectReference Include="..\Stokify.Application\Stokify.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
