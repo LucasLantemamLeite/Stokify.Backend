@@ -1,6 +1,6 @@
 namespace Stokify.Application.Abstracts.Contracts.WorkUnit;
 
-public interface IWorkUnit : IDisposable
+public interface IWorkOfUnit : IDisposable
 {
     Task<int> CommitAsync();
 }
