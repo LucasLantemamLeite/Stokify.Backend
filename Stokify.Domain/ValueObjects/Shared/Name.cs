@@ -1,6 +1,3 @@
-using Flunt.Notifications;
-using Flunt.Validations;
-
 namespace Stokify.Domain.ValueObjects.Shared;
 
 public sealed class Name : Notifiable<Notification>, IValueObject
