@@ -17,4 +17,6 @@ public sealed class Email : Notifiable<Notification>, IValueObject
         if (IsValid)
             Value = email.ToLower();
     }
+
+    private Email() { }
 }

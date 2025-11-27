@@ -21,4 +21,6 @@ public sealed partial class Phone : Notifiable<Notification>, IValueObject
         if (IsValid)
             Value = phone;
     }
+
+    private Phone() { }
 }
