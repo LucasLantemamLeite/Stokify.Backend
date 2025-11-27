@@ -13,6 +13,7 @@ public sealed class User : Entity, IAggregateRoot, IValidatable
     public Name Name { get; private set; } = null!;
     public Email Email { get; private set; } = null!;
     public Phone Phone { get; private set; } = null!;
+    public Password Password { get; private set; } = null!;
     public Access Access { get; private set; } = new();
     public CreatedAt CreatedAt { get; private set; } = new();
     public UpdatedAt UpdatedAt { get; private set; } = new();
@@ -32,4 +33,6 @@ public sealed class User : Entity, IAggregateRoot, IValidatable
 
         return _notification.Count == 0;
     }
+
+    private User() { }
 }
