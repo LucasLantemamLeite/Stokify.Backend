@@ -9,7 +9,7 @@ public sealed partial class Phone : Notifiable<Notification>, IValueObject
 {
     public string Value { get; } = null!;
 
-    [GeneratedRegex("")]
+    [GeneratedRegex(@"^\+?[1-9]\d{7,14}$")]
     private partial Regex PhoneRegex();
 
     public Phone(string phone)
