@@ -34,5 +34,14 @@ public sealed class User : Entity, IAggregateRoot, IValidatable
         return _notification.Count == 0;
     }
 
+    public User(string name, string email, string phone, string password, int access)
+    {
+        Name = new(name, "Usuário");
+        Email = new(email);
+        Phone = new(phone);
+        Password = new(password);
+        Access = new(access);
+    }
+
     private User() { }
 }
