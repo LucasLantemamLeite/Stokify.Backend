@@ -1,4 +1,4 @@
-using Stokify.Application.Abstractions.Mediator;
+using Stokify.Application.Abstractions.Contracts.Mediator;
 
 namespace Stokify.Application.Mediator;
 

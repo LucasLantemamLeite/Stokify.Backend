@@ -1,4 +1,4 @@
-namespace Stokify.Application.Abstractions.Mediator;
+namespace Stokify.Application.Abstractions.Contracts.Mediator;
 
 public interface IMediator
 {

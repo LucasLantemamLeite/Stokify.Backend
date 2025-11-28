@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Stokify.Application.Users.Repository;
+using Stokify.Application.Users.Contracts.Repositories;
 using Stokify.Domain.Users;
 using Stokify.Infrastructure.Data.Context;
 
@@ -9,7 +9,7 @@ public sealed class UserRepository : IUserRepository
 {
     private readonly AppDbContext _context;
     public UserRepository(AppDbContext context)
-     => _context = context;
+        => _context = context;
 
     // Write
     public async Task CreateAsync(User entity)

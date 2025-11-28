@@ -1,6 +1,6 @@
 using Stokify.Domain.Abstractions.Markers;
 
-namespace Stokify.Application.Abstractions.Contracts;
+namespace Stokify.Application.Shared.Contracts.Repositories;
 
 public interface IRepository<TAggregate> where TAggregate : IAggregateRoot
 {
