@@ -7,13 +7,13 @@ namespace Stokify.Infrastructure.Users.Repositories;
 
 public sealed class UserRepository(AppDbContext context) : IUserRepository
 {
-    public void CreateAsync(User user)
+    public void Create(User user)
         => context.Users.Add(user);
 
-    public void DeleteAsync(User user)
+    public void Delete(User user)
         => context.Users.Remove(user);
 
-    public void UpdateAsync(User user)
+    public void Update(User user)
         => context.Users.Update(user);
 
     public async Task<User?> GetByIdAsync(Guid id)
