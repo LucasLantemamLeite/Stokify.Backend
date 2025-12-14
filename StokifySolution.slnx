@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Stokify.Api/Stokify.Api.csproj" />
+  <Project Path="Stokify.Application/Stokify.Application.csproj" />
+  <Project Path="Stokify.Domain/Stokify.Domain.csproj" />
+  <Project Path="Stokify.Infrastructure/Stokify.Infrastructure.csproj" />
+  <Project Path="Stokify.Test/Stokify.Test.csproj" />
+</Solution>
